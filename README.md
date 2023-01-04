@@ -1,5 +1,5 @@
-# ESS
+# About
 
-This is my website. It is under construction.
+This is my first attempt at making a website.
 
-Come back later.
+Success!
