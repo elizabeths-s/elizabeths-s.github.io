@@ -1,4 +1,0 @@
-baseURL = 'https://ess.fyi'
-languageCode = 'en-us'
-title = 'ESS Hugo Site'
-theme = 'ananke'
