@@ -3,6 +3,7 @@ baseURL = "https://ess.fyi"
 languageCode = "en-us"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 resourceDir = "../resources"
+disqusShortname = ESS
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
