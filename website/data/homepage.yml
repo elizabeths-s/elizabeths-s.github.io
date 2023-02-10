@@ -74,6 +74,8 @@ education:
       year: May 2007
       academy: University of California, Berkeley
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+education:
+  enable: true      
   item:
     - title: AA Journalism
       year: May 2005
