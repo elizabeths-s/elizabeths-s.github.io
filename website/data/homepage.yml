@@ -1,0 +1,98 @@
+---
+banner:
+  title: Hi! I’m ESS.
+social:
+  twitter: ""
+  linkedin: elizabethmss
+  github: elizabeths-s
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: ss.elizabeth
+about:
+  enable: true
+  content: Technical Writer, Occasional Godlike Genius
+  button:
+    btnText: More about me
+    URL: "/about"
+skill:
+  enable: true
+  item:
+    - title: Hugo
+      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      description: I used it to make this site!
+  item:
+    - title: Hugo
+      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      description: I used it to make this site!
+  item:
+    - title: Hugo
+      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      description: I used it to make this site!
+  item:
+    - title: Hugo
+      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      description: I used it to make this site!
+  item:
+    - title: Hugo
+      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      description: I used it to make this site!      
+experience:
+  enable: true
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+      title: TPx
+      company: TPx
+      duration: Jan. 2023 - Present
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+      title: StrongDM
+      company: StrongDM
+      duration: April - Oct. 2022
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+      title: Bright Pattern
+      company: Bright Pattern
+      duration: March 2018 - April 2022      
+hackathons:
+  enable: false
+  item:
+    - title: Hack Cambridge 2019
+      description: Climate change simulator
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
+      url: none
+certifications:
+  enable: false
+  item:
+    - title: Microsoft Azure Fundamentals
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
+      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+education:
+  enable: true
+  item:
+    - title: BA Music
+      year: May 2007
+      academy: University of California, Berkeley
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+  item:
+    - title: AA Journalism
+      year: May 2005
+      academy: Skyline College
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+awards:
+  enable: true
+  item:
+    - title: 2nd Place, On-the-Spot News Writing
+      event: Journalism Association of Community Colleges (JACC), 2004 NorCal Conference
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701167/CEChallenge-P1Winner2_iyjvyu.png      
+leadership:
+  enable: false
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
+      title: Young Leader
+      company: The Scout Association
+      duration: September 2014 - July 2018
+portfolio:
+  filter:
+    - label: Technical Writer
+      value: tec-wri
