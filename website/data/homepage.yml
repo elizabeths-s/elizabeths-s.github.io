@@ -21,19 +21,15 @@ skill:
     - title: Hugo
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
       description: I used it to make this site!
-  item:
     - title: Hugo
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
       description: I used it to make this site!
-  item:
     - title: Hugo
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
       description: I used it to make this site!
-  item:
     - title: Hugo
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
       description: I used it to make this site!
-  item:
     - title: Hugo
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
       description: I used it to make this site!      
@@ -44,12 +40,10 @@ experience:
       title: TPx
       company: TPx
       duration: Jan. 2023 - Present
-  item:
     - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
       title: StrongDM
       company: StrongDM
       duration: April - Oct. 2022
-  item:
     - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
       title: Bright Pattern
       company: Bright Pattern
@@ -74,9 +68,6 @@ education:
       year: May 2007
       academy: University of California, Berkeley
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
-education:
-  enable: true      
-  item:
     - title: AA Journalism
       year: May 2005
       academy: Skyline College
