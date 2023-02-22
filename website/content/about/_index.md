@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2023-02-16
+date: 2023-02-21
 description: "This is meta description."
 author : "ESS"
 authorImage : "images/about/profile.jpg"

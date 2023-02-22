@@ -1,3 +1,7 @@
 filter:
+  - label: Linux
+    value: linux
   - label: Web Dev
-    value: web-dev
+    value: web-dev    
+  - label: Workflows
+    value: workflows

@@ -19,7 +19,7 @@ skill:
   enable: true
   item:
     - title: Hugo
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: "static/logos/hugo.svg"
       description: I used it to make this site!
     - title: Git Bash
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
@@ -86,6 +86,14 @@ leadership:
       company: The Scout Association
       duration: September 2014 - July 2018
 portfolio:
-  filter:
-    - label: Technical Writer
-      value: tec-wri
+  enable: false
+  item:
+    - title: Easy DMARC
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1597159067/Easy_DMARC_hkcgif.webp
+      description: A website to make it easy to add DMARC to a Vercel website
+      link: "/portfolio/easy-dmarc"
+      tools:
+        - next-dot-js
+        - tailwindcss
+        - vercel
+        - reac

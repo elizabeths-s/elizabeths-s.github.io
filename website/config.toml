@@ -57,7 +57,7 @@ author = "Elizabeth Sinclair-Smith"
   [params.footer]
   email = "ss.elizabeth@gmail.com"
   address = "South San Francisco, CA"
-  googlemaps = "https://www.google.com/maps/place/South+San+Francisco,+CA/"
+  googlemaps = ""
 
 [markup]
   [markup.highlight]
