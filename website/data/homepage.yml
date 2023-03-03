@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Hi! I’m ESS.
+  title: ESS
 social:
   twitter: ""
   linkedin: elizabethmss
@@ -19,20 +19,14 @@ skill:
   enable: true
   item:
     - title: Hugo
-      logo: "static/logos/hugo.svg"
+      logo: http://localhost:1313/static/logos/hugo.svg
       description: I used it to make this site!
     - title: Git Bash
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
       description: I used it to make this site!
     - title: Command Line
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: I used it to make this site!
-    - title: Hugo
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: I used it to make this site!
-    - title: Hugo
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: I used it to make this site!            
+      description: I used it to make this site!           
 experience:
   enable: true
   item:
