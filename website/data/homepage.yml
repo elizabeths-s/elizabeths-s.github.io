@@ -19,7 +19,7 @@ skill:
   enable: true
   item:
     - title: Hugo
-      logo: http://localhost:1313/static/logos/hugo.svg
+      logo: /logos/hugo.svg
       description: I used it to make this site!
     - title: Git Bash
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
