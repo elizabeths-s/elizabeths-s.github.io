@@ -1,6 +1,6 @@
 # Base information
 baseURL = "https://ess.fyi"
-languageCode = "en-gb"
+languageCode = "en-us"
 title = "ESS"
 theme = "hugo-developer-portfolio"
 googleAnalytics = ""
@@ -56,8 +56,8 @@ author = "Elizabeth Sinclair-Smith"
 
   [params.footer]
   email = "ss.elizabeth@gmail.com"
-  address = "South San Francisco, CA"
-  googlemaps = ""
+  address = "South San Francisco, CA" 
+  googlemaps = "https://goo.gl/maps/6rWkrBYzDtf2Cq8Z7"
 
 [markup]
   [markup.highlight]

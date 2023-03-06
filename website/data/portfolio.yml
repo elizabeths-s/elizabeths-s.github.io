@@ -1,7 +1,19 @@
 filter:
+  - label: APIs
+    value: apis
+  - label: Configuration
+    value: configuration    
+  - label: Docker
+    value: docker
+  - label: Flowcharts
+    value: flowcharts
+  - label: How-Tos
+    value: how-tos      
   - label: Linux
     value: linux
-  - label: Web Dev
-    value: web-dev    
+  - label: Scenarios
+    value: scenarios         
+  - label: SDKs
+    value: sdks    
   - label: Workflows
     value: workflows

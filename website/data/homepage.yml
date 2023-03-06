@@ -18,27 +18,99 @@ about:
 skill:
   enable: true
   item:
-    - title: Hugo
+    - title: Webmaster / DNS
+      logo: /logos/link.svg
+      description:
+        <em>I used it to make this site!</em><br>
+        Reserved a domain, setup DNS, pointed CNAME and A records.
+        So yeah, I can put a website online in the Internet. HA! Bite me! I am THIS good.
+
+
+    - title: Static Site Generation
       logo: /logos/hugo.svg
-      description: I used it to make this site!
-    - title: Git Bash
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: I used it to make this site!
+      description:
+        <em>I used it to make this site!</em><br>
+        WHAT AND WHY HUGO?
+        - [ ] GEnerate a site
+        - [ ] Generate a structured website
+        - [ ] Template Wizardy --->>> aiming at adding search to template
+
+
+    - title: Git
+      logo: /logos/git.svg
+      description: 
+        <em>Git is a very mean person in British English</em><br>
+        WHAT AND WHY GIT!
+
     - title: Command Line
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: I used it to make this site!           
+      logo: /logos/commandline.png
+      description: 
+        <em> sudo writer --technical </em><br>
+        WHAT AND WHY SCRIPTING AND COMMAND LINE STUFF!
+
+    - title: Github PR Workflow
+      logo: /logos/github.svg
+
+    - title: Knowledge Transfer Sessions
+      logo: /logos/commandline.png
+      description: 
+        Do you know what are the necessary steps to actually start a documentation effort? For isntance, one of the initial steps is actually recording Zoom or call sessions and be able to distil it later into meaningful and ready-to-consume formats.
+        Knowing how to use STT tools to facilitate this process is a must. 
+
+    - title: Charts
+      logo: /logos/commandline.png
+      description: 
+        What do they say again? That one flowchart is worth thosand pages of documentation? I can do flowcharts too!!! I understand how to use Visio 
+        and Graphviz (yes, I know Graphviz)
+        Visio
+        Graphviz
+        Excalidraw
+        Google Drawing
+
+    - title: Basic HTML and CSS
+      logo: /logos/commandline.png
+      description: 
+        Sometimes, the chosen template won't cut the trick. Anyone can just open the browser's console and make simple edits, but it takes a skilled writer to find the place, what to change, and later project this change in the template.
+
+    - title: Project Management
+      logo: /logos/commandline.png
+      description: 
+        So your engineers finished the project, and now they dropped their finished piece of software on your documentation team. What should you do? I know what to do, ask me.
+
+
+    - title: SQL
+      logo: /logos/sql.svg
+      description: 
+        Document generation from database content.
+
+    - title: Cloudflare
+      logo: /logos/sql.svg
+      description: 
+        Accelerator networks ...
+
+    - title: OpenAPI
+      logo: /logos/python.svg
+      description: 
+        I can consume an OpenAPI specification and generate examples in Python for your customers. Other languages can be arranged if given time for training.
+
+    - title: Setup a doc.mycompany.com
+      logo: /logos/commandline.png
+      description: 
+        Sometimes, the chosen template won't cut the trick. Anyone can just open the browser's console and make simple edits, but it takes a skilled writer to find the place, what to change, and later project this change in the template.
+
+
 experience:
   enable: true
   item:
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+    - logo: /logos/tpx.png
       title: TPx
       company: TPx
       duration: Jan. 2023 - Present
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+    - logo: /logos/sdm.jpg
       title: StrongDM
       company: StrongDM
       duration: April - Oct. 2022
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+    - logo: /logos/bp.jpg
       title: Bright Pattern
       company: Bright Pattern
       duration: March 2018 - April 2022      
@@ -61,17 +133,17 @@ education:
     - title: BA Music
       year: May 2007
       academy: University of California, Berkeley
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+      image: /logos/berkeley.png
     - title: AA Journalism
       year: May 2005
       academy: Skyline College
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+      image: /logos/skyline.png
 awards:
   enable: true
   item:
     - title: 2nd Place, On-the-Spot News Writing
       event: Journalism Association of Community Colleges (JACC), 2004 NorCal Conference
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701167/CEChallenge-P1Winner2_iyjvyu.png      
+      image: /logos/jacc.png      
 leadership:
   enable: false
   item:
