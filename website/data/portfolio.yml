@@ -1,19 +1,24 @@
 filter:
-  - label: APIs
-    value: apis
   - label: Configuration
     value: configuration    
-  - label: Docker
-    value: docker
-  - label: Flowcharts
-    value: flowcharts
   - label: How-Tos
     value: how-tos      
-  - label: Linux
-    value: linux
   - label: Scenarios
     value: scenarios         
   - label: SDKs
     value: sdks    
-  - label: Workflows
-    value: workflows
+
+
+
+
+
+#   - label: APIs
+#     value: apis  
+#   - label: Docker
+#     value: docker
+#   - label: Flowcharts
+#     value: flowcharts
+#   - label: Linux
+#     value: linux
+#   - label: Workflows
+#     value: workflows
