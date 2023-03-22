@@ -19,28 +19,30 @@ skill:
   enable: true
   item:
     - title: Webmaster / DNS
-      logo: /logos/link.svg
+      logo: /logos/godaddy.png
       description:
-        <em>I used it to make this site!</em><br>
-        Reserved a domain, setup DNS, pointed CNAME and A records.
-        So yeah, I can put a website online in the Internet. HA! Bite me! I am THIS good.
-
+        <em>The best place to start a web project</em><br><br>
+        In creating this site, I've done the following:<br>
+        <ul>Reserved a domain<br>
+        Set up the DNS<br> 
+        Pointed CNAME and A records at GitHub (host)<br><br></ul>
+        It feels good to put a website on the internet. :)
 
     - title: Static Site Generation
       logo: /logos/hugo.svg
       description:
-        <em>I used it to make this site!</em><br>
-        WHAT AND WHY HUGO?
-        - [ ] GEnerate a site
-        - [ ] Generate a structured website
-        - [ ] Template Wizardy --->>> aiming at adding search to template
-
+        <em>How I made this site!</em><br><br>
+        We used Hugo at StrongDM, and I wanted to keep learning it. So, I did.<br><br>
+        More Hugo project ideas:<br>
+        <ul>Add a search feature to this site<br>
+        Generate a structured documentation site<br>
+        Eventually create a Hugo portfolio template</ul>
 
     - title: Git
       logo: /logos/git.svg
       description: 
-        <em>Git is a very mean person in British English</em><br>
-        WHAT AND WHY GIT!
+        <em>git commit -m "Explain the importance of Git to ESS"</em><br><br>
+        My use of GitHub was a gateway to Git. 
 
     - title: Command Line
       logo: /logos/commandline.png
@@ -48,56 +50,19 @@ skill:
         <em> sudo writer --technical </em><br>
         WHAT AND WHY SCRIPTING AND COMMAND LINE STUFF!
 
-    - title: Github PR Workflow
+    - title: GitHub PR Workflow
       logo: /logos/github.svg
+      description: 
+        <em> sudo writer --technical </em><br>
+        Using GitHub to manage a docs site is great for keeping track of changes.<br> 
+        Not only that, but
 
     - title: Knowledge Transfer Sessions
-      logo: /logos/commandline.png
+      logo: /logos/galaxybrain.jpg
       description: 
-        Do you know what are the necessary steps to actually start a documentation effort? For isntance, one of the initial steps is actually recording Zoom or call sessions and be able to distil it later into meaningful and ready-to-consume formats.
+        What are some of the steps necessary to start a documentation effort?<br> 
+        For instance, one of the initial steps is actually recording Zoom or call sessions and be able to distil it later into meaningful and ready-to-consume formats.
         Knowing how to use STT tools to facilitate this process is a must. 
-
-    - title: Charts
-      logo: /logos/commandline.png
-      description: 
-        What do they say again? That one flowchart is worth thosand pages of documentation? I can do flowcharts too!!! I understand how to use Visio 
-        and Graphviz (yes, I know Graphviz)
-        Visio
-        Graphviz
-        Excalidraw
-        Google Drawing
-
-    - title: Basic HTML and CSS
-      logo: /logos/commandline.png
-      description: 
-        Sometimes, the chosen template won't cut the trick. Anyone can just open the browser's console and make simple edits, but it takes a skilled writer to find the place, what to change, and later project this change in the template.
-
-    - title: Project Management
-      logo: /logos/commandline.png
-      description: 
-        So your engineers finished the project, and now they dropped their finished piece of software on your documentation team. What should you do? I know what to do, ask me.
-
-
-    - title: SQL
-      logo: /logos/sql.svg
-      description: 
-        Document generation from database content.
-
-    - title: Cloudflare
-      logo: /logos/sql.svg
-      description: 
-        Accelerator networks ...
-
-    - title: OpenAPI
-      logo: /logos/python.svg
-      description: 
-        I can consume an OpenAPI specification and generate examples in Python for your customers. Other languages can be arranged if given time for training.
-
-    - title: Setup a doc.mycompany.com
-      logo: /logos/commandline.png
-      description: 
-        Sometimes, the chosen template won't cut the trick. Anyone can just open the browser's console and make simple edits, but it takes a skilled writer to find the place, what to change, and later project this change in the template.
-
 
 experience:
   enable: true

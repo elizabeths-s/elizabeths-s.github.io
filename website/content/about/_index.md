@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2023-02-21
+date: 2023-03-21
 description: "This is meta description."
 author : "ESS"
 authorImage : "images/about/profile.jpg"
@@ -15,3 +15,8 @@ Hi! I am Ulderico! And I am Lizzy's boyfriend and I decided to write a foreword 
 --->
 Hi, I'm Elizabeth! I've been a technical writer since 2018.
 
+I'm from South San Francisco, California. I own two dogs, Captain and Ripley.
+
+If left to my own devices, I would try to live off of coffee and chocolate.
+
+Football is life, and you should have watched Star Trek: The Next Generation by now.
