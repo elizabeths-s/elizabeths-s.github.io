@@ -21,8 +21,8 @@ skill:
     - title: Webmaster / DNS
       logo: /logos/godaddy.png
       description:
-        <em>The best place to start a web project</em><br><br>
-        In creating this site, I've done the following:<br>
+        <em>GoDaddy - A good place to start a web project</em><br><br>
+        To create this site, I did the following:<br>
         <ul>Reserved a domain<br>
         Set up the DNS<br> 
         Pointed CNAME and A records at GitHub (host)<br><br></ul>
@@ -33,7 +33,7 @@ skill:
       description:
         <em>How I made this site!</em><br><br>
         We used Hugo at StrongDM, and I wanted to keep learning it. So, I did.<br><br>
-        More Hugo project ideas:<br>
+        Here are some other things I'd like to do with Hugo:<br>
         <ul>Add a search feature to this site<br>
         Generate a structured documentation site<br>
         Eventually create a Hugo portfolio template</ul>
@@ -42,7 +42,10 @@ skill:
       logo: /logos/git.svg
       description: 
         <em>git commit -m "Explain the importance of Git to ESS"</em><br><br>
-        My use of GitHub was a gateway to Git. 
+        When you create documentation (or code), versioning is everything. A popular tool for this is GitHub, which we used at StrongDM. 
+        Our wise manager suggested we tech writers learn some Git to understand what goes on "under the hood" in GitHub.<br><br> 
+        When I began learning Git, it really brought depth and context to using GitHub. Every <em>git commit</em> came to life in the GitHub UI.
+        Using Git for more than docs versioning (e.g., code, websites, etc.) is super helpful, too.
 
     - title: Command Line
       logo: /logos/commandline.png
