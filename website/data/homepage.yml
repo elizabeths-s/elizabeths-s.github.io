@@ -50,22 +50,28 @@ skill:
     - title: Command Line
       logo: /logos/commandline.png
       description: 
-        <em> sudo writer --technical </em><br>
-        WHAT AND WHY SCRIPTING AND COMMAND LINE STUFF!
+        <em> sudo writer --technical </em><br><br>
+        I've used the command line to run Docker Compose and maintain Bright Pattern test environments for the documentation team. 
+        I've used it to browse directories and read content. I've used it to develop and render this website. (But I really don't like VIM.)
 
     - title: GitHub PR Workflow
       logo: /logos/github.svg
       description: 
-        <em> sudo writer --technical </em><br>
-        Using GitHub to manage a docs site is great for keeping track of changes.<br> 
-        Not only that, but
+        <em> Pull requests are the way </em><br><br>
+        Pull requests are my favorite part of GitHub. Why? 
+        Because this is where you actually get peer feedback, interdepartmental interactions, questions, answers, and more all in the same place.
+        All these interactions add up and give you real, on-the-job training opportunities.
 
     - title: Knowledge Transfer Sessions
       logo: /logos/galaxybrain.jpg
-      description: 
-        What are some of the steps necessary to start a documentation effort?<br> 
-        For instance, one of the initial steps is actually recording Zoom or call sessions and be able to distil it later into meaningful and ready-to-consume formats.
-        Knowing how to use STT tools to facilitate this process is a must. 
+      description:
+        <em>I drink wine and learn things.</em><br><br> 
+        What are some necessary steps to start a documentation effort?<br> 
+        Recording Zoom or call sessions, and be able to distil them later into meaningful and ready-to-consume formats.
+        Using STT functionalities for interview transcriptions instead of listening to something a million times.
+        Knowing the questions to ask that will get you the answers you want (hint = use gentle commands).
+        Actively listening and asking a lot of questions afterward.
+        There are so many!
 
 experience:
   enable: true
