@@ -6,7 +6,9 @@ filter:
   - label: Scenarios
     value: scenarios         
   - label: SDKs
-    value: sdks    
+    value: sdks
+  - label: Release Notes
+    value: RNs    
 
 
 

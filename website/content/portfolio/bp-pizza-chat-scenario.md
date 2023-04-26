@@ -1,14 +1,16 @@
 +++
 categories = ["scenarios"]
-date = 2023-03-11
+date = 2023-04-25
 description = "A Bright Pattern chat scenario for inbound interactions"
 image = "/logos/bp.jpg"
 title = "Pizza Flowchart Chat Scenario"
 type = "post"
-[[tech]]
-logo = "/logos/bp.jpg"
-name = "X"
-url = "https://gohugo.io/"
 +++
 
-This is some content
+## About
+
+This scenario highlights the *Switch* scenario block and quick-reply buttons.
+
+### PDF
+
+[Pizza Flowchart Chat Scenario](/images/portfolio/ESS-Pizza-Flowchart-Chat-Scenario.pdf)
