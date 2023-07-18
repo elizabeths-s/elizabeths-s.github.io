@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on ESS</title>
+    <link>https://ess.fyi/portfolio/</link>
+    <description>Recent content in Portfolio on ESS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ess.fyi/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Cloud Provisioning Configuration Guide</title>
+      <link>https://ess.fyi/portfolio/sdm-gcloud-configuration/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ess.fyi/portfolio/sdm-gcloud-configuration/</guid>
+      <description>About The last project I completed for StrongDM.
+PDF Google Cloud Provisioning Configuration Guide</description>
+    </item>
+    
+    <item>
+      <title>Pizza Flowchart Chat Scenario</title>
+      <link>https://ess.fyi/portfolio/bp-pizza-chat-scenario/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ess.fyi/portfolio/bp-pizza-chat-scenario/</guid>
+      <description>About This scenario highlights the Switch scenario block and quick-reply buttons.
+PDF Pizza Flowchart Chat Scenario</description>
+    </item>
+    
+    <item>
+      <title>StrongDM July 2022 Release Notes</title>
+      <link>https://ess.fyi/portfolio/sdm-july-2022-rn/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ess.fyi/portfolio/sdm-july-2022-rn/</guid>
+      <description>About Monthly product release notes.
+PDF StrongDM July 2022 Release Notes</description>
+    </item>
+    
+  </channel>
+</rss>

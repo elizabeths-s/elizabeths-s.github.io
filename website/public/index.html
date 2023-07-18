@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>ESS</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="I am a technical writer.">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Elizabeth Sinclair-Smith">
+  <meta name="generator" content="Hugo 0.109.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <link rel="alternate" type="application/rss+xml" href="https://ess.fyi/index.xml" title="ESS" />
+<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li class="uk-active "><a style="font-size: 18px; text-transform: none"
+                        href="https://ess.fyi"> Home </a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/portfolio">Portfolio</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/blog">Blog</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li class="uk-active"><a style="font-size: 18px" href="https://ess.fyi"> Home </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/blog">Blog</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Hexagon Stylesheet -->
+
+<link rel="stylesheet" href="/css/hexagon.min.css">
+
+<!-- Index -->
+
+<link rel="stylesheet" href="/css/index.min.css">
+
+<section>
+    <div class="uk-container uk-margin-xlarge-top uk-margin-xlarge-bottom">
+
+        <h1 class="uk-heading-large">ESS</h1>
+    </div>
+
+
+</section>
+
+<div class="uk-text-center uk-margin-xlarge-bottom uk-margin-xlarge-top">
+    <ul id="links" class="icons">
+        
+        
+         
+        <li><a href="https://www.linkedin.com/in/elizabethmss">
+            <img class="contain" src="https://cdn.svgporn.com/logos/linkedin-icon.svg" alt="LinkedIn" loading="lazy"> </a></li>
+          
+        <li><a href="https://github.com/elizabeths-s"> <img
+                    class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub" loading="lazy"> </a></li>
+           
+        <li><a href="mailto:ss.elizabeth@gmail.com" > <img
+                    class="contain" src="https://cdn.svgporn.com/logos/google-gmail.svg" alt="Gmail" loading="lazy"></a></li>
+          
+    </ul>
+
+
+</div>
+
+
+
+
+
+<section class="uk-margin-large-top">
+    <div class="uk-container">
+        <div class="uk-text-center">
+            
+            <p class="uk-text-lead">Technical Writer, Occasional Godlike Genius</p>
+            
+            <a class="uk-button uk-button-text" href="https://ess.fyi/about">More about me</a>
+            
+            
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="modal_Webmaster___DNS" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Webmaster / DNS</h2>
+        </div>
+        <p><em>GoDaddy - A good place to start a web project</em><br><br> To create this site, I did the following:<br> <ul>Reserved a domain<br> Set up the DNS<br> Pointed CNAME and A records at GitHub (host)<br><br></ul> It feels good to put a website on the internet. :)</p>
+    </div>
+</div>
+
+<div id="modal_Static_Site_Generation" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Static Site Generation</h2>
+        </div>
+        <p><em>How I made this site!</em><br><br> We used Hugo at StrongDM, and I wanted to keep learning it. So, I did.<br><br> Here are some other things I'd like to do with Hugo:<br> <ul>Add a search feature to this site<br> Generate a structured documentation site<br> Eventually create a Hugo portfolio template</ul></p>
+    </div>
+</div>
+
+<div id="modal_Git" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Git</h2>
+        </div>
+        <p><em>git commit -m "Explain the importance of Git to ESS"</em><br><br> When you create documentation (or code), versioning is everything. A popular tool for this is GitHub, which we used at StrongDM. Our wise manager suggested we tech writers learn some Git to understand what goes on "under the hood" in GitHub.<br><br> When I began learning Git, it really brought depth and context to using GitHub. Every <em>git commit</em> came to life in the GitHub UI. Using Git for more than docs versioning (e.g., code, websites, etc.) is super helpful, too.</p>
+    </div>
+</div>
+
+<div id="modal_Command_Line" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Command Line</h2>
+        </div>
+        <p><em> sudo writer --technical </em><br><br> I've used the command line to run Docker Compose and maintain Bright Pattern test environments for the documentation team. I've used it to browse directories and read content. I've used it to develop and render this website. (But I really don't like VIM.)</p>
+    </div>
+</div>
+
+<div id="modal_GitHub_PR_Workflow" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">GitHub PR Workflow</h2>
+        </div>
+        <p><em> Pull requests are the way </em><br><br> Pull requests are my favorite part of GitHub. Why? Because this is where you actually get peer feedback, interdepartmental interactions, questions, answers, and more all in the same place. All these interactions add up and give you real, on-the-job training opportunities.</p>
+    </div>
+</div>
+
+<div id="modal_Knowledge_Transfer_Sessions" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Knowledge Transfer Sessions</h2>
+        </div>
+        <p><em>I drink wine and learn things.</em><br><br> What are some necessary steps to start a documentation effort?<br> Recording Zoom or call sessions, and be able to distil them later into meaningful and ready-to-consume formats. Using STT functionalities for interview transcriptions instead of listening to something a million times. Knowing the questions to ask that will get you the answers you want (hint = use gentle commands). Actively listening and asking a lot of questions afterward. There are so many!</p>
+    </div>
+</div>
+
+
+<section class="uk-margin-large-top uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Skills</span></h1>
+
+        <p class="uk-text-center uk-text-lead"><i>Click the images below to find out more</i></p>
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+            uk-grid>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="/logos/godaddy.png" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Webmaster___DNS">
+                <h4>Webmaster / DNS</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="/logos/hugo.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Static_Site_Generation">
+                <h4>Static Site Generation</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="/logos/git.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Git">
+                <h4>Git</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="/logos/commandline.png" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Command_Line">
+                <h4>Command Line</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="/logos/github.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_GitHub_PR_Workflow">
+                <h4>GitHub PR Workflow</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="/logos/galaxybrain.jpg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Knowledge_Transfer_Sessions">
+                <h4>Knowledge Transfer Sessions</h4>
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
+
+        <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="/logos/tpx.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">TPx</h3>
+                        </div>
+                        <p style="height: 4em">TPx</p>
+                        <p>Jan. 2023 - Present</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="/logos/sdm.jpg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">StrongDM</h3>
+                        </div>
+                        <p style="height: 4em">StrongDM</p>
+                        <p>April - Oct. 2022</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="/logos/bp.jpg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">Bright Pattern</h3>
+                        </div>
+                        <p style="height: 4em">Bright Pattern</p>
+                        <p>March 2018 - April 2022</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-top uk-margin-medium-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line uk-heading-medium"><span>Awards and Achievements</span></h1>
+
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+            uk-grid uk-height-match="target: > div > h4">
+            
+            <div class="imagemargin">
+                <img class="contain certs" src="/logos/jacc.png" alt="2nd Place, On-the-Spot News Writing" loading="lazy" >
+                <h4>2nd Place, On-the-Spot News Writing</h4>
+                <p>Journalism Association of Community Colleges (JACC), 2004 NorCal Conference</p>
+                </div>
+
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-xlarge-bottom">
+    <div class="uk-container">
+
+        <h1 class="uk-heading-line uk-heading-medium  uk-margin-large-bottom"><span>Education</span></h1>
+
+
+        <div class=" uk-grid-large uk-child-width-1-3@s uk-child-width-1  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="/logos/berkeley.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">University of California, Berkeley</h3>
+                        </div>
+                        <p style="height: 4em">BA Music</p>
+                        <p>May 2007</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="/logos/skyline.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">Skyline College</h3>
+                        </div>
+                        <p style="height: 4em">AA Journalism</p>
+                        <p>May 2005</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:ss.elizabeth@gmail.com">ss.elizabeth@gmail.com</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+          <div uk-lightbox>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101083.30290934484!2d-122.34610755000001!3d37.6526548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f790543feecef%3A0xf83a7579e756335d!2sSouth%20San%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1678581268527!5m2!1sen!2sus" data-caption="South San Francisco, CA"
+               data-type="iframe">South San Francisco, CA</a>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+      2023
+      Elizabeth Sinclair-Smith
+    </div>
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
