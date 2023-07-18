@@ -1,0 +1,73 @@
+# Base information
+baseURL = "https://ess.fyi"
+languageCode = "en-us"
+title = "ESS"
+theme = "hugo-developer-portfolio"
+googleAnalytics = ""
+ 
+[module]
+  [[module.imports]]
+    path = "github.com/samrobbins85/hugo-developer-portfolio"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+
+# navigation
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight=1
+
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  weight=2
+
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight=3
+
+
+
+[params]
+home = "Home"
+# Meta data
+description = "Technical Writer, Occasional Godlike Genius"
+author = "Elizabeth Sinclair-Smith"
+
+
+  [params.contact]
+  enable = false
+  formAction = "" #contact form works with formspree.io
+
+  [params.footer]
+  email = "ss.elizabeth@gmail.com"
+  address = "South San Francisco, CA" 
+  googlemaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101083.30290934484!2d-122.34610755000001!3d37.6526548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f790543feecef%3A0xf83a7579e756335d!2sSouth%20San%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1678581268527!5m2!1sen!2sus"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "rainbow_dash"
+    tabWidth = 4
+

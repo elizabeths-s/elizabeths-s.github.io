@@ -1,0 +1,139 @@
+---
+banner:
+  title: ESS
+social:
+  twitter: ""
+  linkedin: elizabethmss
+  github: elizabeths-s
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: ss.elizabeth
+about:
+  enable: true
+  content: Technical Writer, Occasional Godlike Genius
+  button:
+    btnText: More about me
+    URL: "/about"
+skill:
+  enable: true
+  item:
+    - title: Webmaster / DNS
+      logo: /logos/godaddy.png
+      description:
+        <em>GoDaddy - A good place to start a web project</em><br><br>
+        To create this site, I did the following:<br>
+        <ul>Reserved a domain<br>
+        Set up the DNS<br> 
+        Pointed CNAME and A records at GitHub (host)<br><br></ul>
+        It feels good to put a website on the internet. :)
+
+    - title: Static Site Generation
+      logo: /logos/hugo.svg
+      description:
+        <em>How I made this site!</em><br><br>
+        We used Hugo at StrongDM, and I wanted to keep learning it. So, I did.<br><br>
+        Here are some other things I'd like to do with Hugo:<br>
+        <ul>Add a search feature to this site<br>
+        Generate a structured documentation site<br>
+        Eventually create a Hugo portfolio template</ul>
+
+    - title: Git
+      logo: /logos/git.svg
+      description: 
+        <em>git commit -m "Explain the importance of Git to ESS"</em><br><br>
+        When you create documentation (or code), versioning is everything. A popular tool for this is GitHub, which we used at StrongDM. 
+        Our wise manager suggested we tech writers learn some Git to understand what goes on "under the hood" in GitHub.<br><br> 
+        When I began learning Git, it really brought depth and context to using GitHub. Every <em>git commit</em> came to life in the GitHub UI.
+        Using Git for more than docs versioning (e.g., code, websites, etc.) is super helpful, too.
+
+    - title: Command Line
+      logo: /logos/commandline.png
+      description: 
+        <em> sudo writer --technical </em><br><br>
+        I've used the command line to run Docker Compose and maintain Bright Pattern test environments for the documentation team. 
+        I've used it to browse directories and read content. I've used it to develop and render this website. (But I really don't like VIM.)
+
+    - title: GitHub PR Workflow
+      logo: /logos/github.svg
+      description: 
+        <em> Pull requests are the way </em><br><br>
+        Pull requests are my favorite part of GitHub. Why? 
+        Because this is where you actually get peer feedback, interdepartmental interactions, questions, answers, and more all in the same place.
+        All these interactions add up and give you real, on-the-job training opportunities.
+
+    - title: Knowledge Transfer Sessions
+      logo: /logos/galaxybrain.jpg
+      description:
+        <em>I drink wine and learn things.</em><br><br> 
+        What are some necessary steps to start a documentation effort?<br> 
+        Recording Zoom or call sessions, and be able to distil them later into meaningful and ready-to-consume formats.
+        Using STT functionalities for interview transcriptions instead of listening to something a million times.
+        Knowing the questions to ask that will get you the answers you want (hint = use gentle commands).
+        Actively listening and asking a lot of questions afterward.
+        There are so many!
+
+experience:
+  enable: true
+  item:
+    - logo: /logos/tpx.png
+      title: TPx
+      company: TPx
+      duration: Jan. 2023 - Present
+    - logo: /logos/sdm.jpg
+      title: StrongDM
+      company: StrongDM
+      duration: April - Oct. 2022
+    - logo: /logos/bp.jpg
+      title: Bright Pattern
+      company: Bright Pattern
+      duration: March 2018 - April 2022      
+hackathons:
+  enable: false
+  item:
+    - title: Hack Cambridge 2019
+      description: Climate change simulator
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
+      url: none
+certifications:
+  enable: false
+  item:
+    - title: Microsoft Azure Fundamentals
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
+      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+education:
+  enable: true
+  item:
+    - title: BA Music
+      year: May 2007
+      academy: University of California, Berkeley
+      image: /logos/berkeley.png
+    - title: AA Journalism
+      year: May 2005
+      academy: Skyline College
+      image: /logos/skyline.png
+awards:
+  enable: true
+  item:
+    - title: 2nd Place, On-the-Spot News Writing
+      event: Journalism Association of Community Colleges (JACC), 2004 NorCal Conference
+      image: /logos/jacc.png      
+leadership:
+  enable: false
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
+      title: Young Leader
+      company: The Scout Association
+      duration: September 2014 - July 2018
+portfolio:
+  enable: false
+  item:
+    - title: Easy DMARC
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1597159067/Easy_DMARC_hkcgif.webp
+      description: A website to make it easy to add DMARC to a Vercel website
+      link: "/portfolio/easy-dmarc"
+      tools:
+        - next-dot-js
+        - tailwindcss
+        - vercel
+        - reac

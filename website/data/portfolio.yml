@@ -1,0 +1,26 @@
+filter:
+  - label: Configuration
+    value: configuration    
+  - label: How-Tos
+    value: how-tos      
+  - label: Scenarios
+    value: scenarios         
+  - label: SDKs
+    value: sdks
+  - label: Release Notes
+    value: RNs    
+
+
+
+
+
+#   - label: APIs
+#     value: apis  
+#   - label: Docker
+#     value: docker
+#   - label: Flowcharts
+#     value: flowcharts
+#   - label: Linux
+#     value: linux
+#   - label: Workflows
+#     value: workflows
