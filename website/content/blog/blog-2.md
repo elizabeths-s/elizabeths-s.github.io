@@ -8,6 +8,6 @@ type: "post"
 
 #### Go live!
 
-OK, this site is nowhere near as finished as want. Still, better to get something off the ground.
+OK, this site is nowhere near as finished as I want. Still, better to get something off the ground.
 
 Godspeed.
