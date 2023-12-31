@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ess.fyi/blog/nye2023/</loc>
+    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ess.fyi/blog/blog-2/</loc>
     <lastmod>2023-07-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -43,8 +46,6 @@
   </url><url>
     <loc>https://ess.fyi/contact/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://ess.fyi/blog/nye2023/</loc>
   </url><url>
     <loc>https://ess.fyi/tags/</loc>
   </url>
